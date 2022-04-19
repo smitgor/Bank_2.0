@@ -1,0 +1,38 @@
+body {
+    font-family: Verdana, sans-serif; 
+    margin:0;
+}
+
+
+ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(43, 216, 0);
+    overflow: hidden;
+}
+
+li{
+    float: left;
+}
+
+li a{
+    padding : 15px 15px;
+    display: block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.35s ease;
+}
+
+a:hover{
+    background-color:  rgb(0, 173, 72);
+}
+
+#login{
+    float: right;
+}
+
+.active{
+    background-color: rgb(22, 118, 11);
+}

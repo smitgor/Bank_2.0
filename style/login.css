@@ -1,0 +1,19 @@
+.login {
+    text-align: center;
+    border-style: groove;
+    border-radius: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 5%;
+}
+
+.center{
+    display: flex;
+}
+
+.test{
+    margin: auto;
+    padding: 10px;
+}

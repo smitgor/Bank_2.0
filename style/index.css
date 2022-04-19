@@ -1,0 +1,11 @@
+@import url("../style/nav.css");
+
+.Account {
+    border-style: groove;
+    border-radius: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 5%;
+}

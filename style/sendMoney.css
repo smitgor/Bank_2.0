@@ -1,0 +1,36 @@
+@import url("../style/nav.css");
+
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides {display: none}
+img{
+    height: auto;
+    max-height: 500px;
+}
+
+.sendmoney {
+    border-style: groove;
+    border-radius: 10px;
+    color : rgb(28, 37, 163);
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 5%;
+}
+
+.col-25 {
+	float: left;
+	width: 25%;
+	margin-top: 6px;
+  }
+  
+.col-75 {
+    float: left;
+	width: 75%;
+	margin-top: 6px;
+}
+
+button{
+  margin-top: 20px;
+}

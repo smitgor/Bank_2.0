@@ -1,0 +1,48 @@
+<html>
+    <head>
+        <title>ISM BANK</title>
+        <link rel="stylesheet" href="../style/history.css">
+    </head>
+    <body>
+        <div class="navigation">
+            <ul>
+                <li><a href="./">Account</a></li>
+                <li><a href="./sendmoney">Send Money</a></li>
+                <li><a href="./history" class="active">Transaction History</a></li>
+                <li id=login><a href="/logout">log out</a></li>
+            </ul>
+        </div>
+        <div class="tr">
+            <div class="transactions">
+                <table>
+                    <tr>
+                        <thead>
+                            <th>Account Number</th>
+                            <th>Ammount</th>
+                            <th>Date and Time</th>
+                        </thead>
+                    </tr>
+                    <% for(var i=0; i < data.length; i++) { %>
+                    <tr>
+                        <tbody>
+                            <td><%= data[i].account_number%></td>
+                            <td><%= data[i].amount%></td>
+                            <td><%= data[i].date%></td>
+                        </tbody>
+                    </tr>
+                    <% } %>
+                </table>
+            </div>
+        </div>
+    </body>
+</html><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>History</title>
+</head>
+<body>
+</body>
+</html>

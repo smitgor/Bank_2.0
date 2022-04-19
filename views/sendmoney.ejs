@@ -1,0 +1,39 @@
+<html>
+    <head>
+        <title>ISM BANK</title>
+        <link rel="stylesheet" href="../style/sendMoney.css">
+    </head>
+    <body>
+        <div class="navigation">
+            <ul>
+                <li><a href="./">Account</a></li>
+                <li><a href="./sendmoney"  class="active">Send Money</a></li>
+                <li><a href="./history">Transaction History</a></li>
+                <li id=login><a href="/logout">log out</a></li>
+            </ul>
+        </div>
+        <div class="sendmoney">
+            <form action="/transfer">
+                <card>
+                    <div class="row">
+                        <div class="col-25">
+                            <label for="account">Account Number:</label><br>
+                        </div>
+                        <div class="col-75">
+                            <input type="text" id="account" name="account"><br>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-25">
+                            <label for="amount">Ammount:</label><br>
+                        </div>
+                        <div class="col-75">
+                            <input type="number" name="amount" id="amount" class="focus:ring-indigo-500 focus:border-indigo-500 block w-full pl-7 pr-12 sm:text-sm border-gray-300 rounded-md" placeholder="0.00" autocomplete="false">
+                        </div>
+                    </div>
+                    <button for="Send" type="submit">Send Money</button>
+                </card>
+              </form>
+        </div>
+    </body>
+</html>

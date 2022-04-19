@@ -1,0 +1,38 @@
+@import url("/style/nav.css");
+
+.transactions {
+    border-style: groove;
+    border-radius: 10px;
+    color : rgb(28, 37, 163);
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 5%;
+}
+
+table 			      { 
+    border-spacing: 1; 
+    border-collapse: collapse; 
+    background:white;
+    border-radius:6px;
+    overflow:hidden; 
+    width:100%;
+    margin: auto;
+    position:relative;}
+
+    td,th{ 
+        padding-left:8px
+    }
+  
+    thead tr        { 
+      height: 40px;
+      background:#FFED86;
+      font-size:16px;
+    }
+    
+    tbody tr {
+        height: 10px;
+        font-size:16px;
+        text-align: center;
+    }
